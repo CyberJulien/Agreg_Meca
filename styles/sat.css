@@ -1,0 +1,30 @@
+:root {
+  --width:250px;
+  --height:110px;
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+  background-image: url('../images/satellite.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+}
+.main_sat {
+  margin-left: var(--height); /* Same as the width of the sidenav */
+  /*font-size: 28px;*/ /* Increased text to enable scrolling */
+  /*padding: 0px 10px;*/
+  width: calc(100% - var(--height));
+  height: 100%;
+}
