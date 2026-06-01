@@ -47,6 +47,17 @@ form {
   height: auto;
 }
 
+.main_link {
+  margin-left: 110px; /* Same as the width of the sidenav */
+  margin-right: var(--marg);
+  /*font-size: 28px;*/ /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  color:rgb(176, 198, 247);
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .formulaire {
       position:absolute;
       margin-left: 110px; /* Same as the width of the sidenav */
