@@ -38,6 +38,15 @@ form {
   padding: 0px 10px;
 }
 
+.main_image {
+  margin-left: 110px; /* Same as the width of the sidenav */
+  margin-right: var(--marg);
+  /*font-size: 28px;*/ /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  max-width: 1000px; 
+  height: auto;
+}
+
 .formulaire {
       position:absolute;
       margin-left: 110px; /* Same as the width of the sidenav */
