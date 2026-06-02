@@ -82,7 +82,7 @@ form {
 
 .main_link {
   margin-left: 110px; /* Same as the width of the sidenav */
-  margin-right: var(--marg);
+  /*margin-right: var(--marg);*/
   /*font-size: 28px;*/ /* Increased text to enable scrolling */
   padding: 0px 10px;
   color:rgb(176, 198, 247);
