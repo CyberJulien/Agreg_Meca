@@ -54,6 +54,17 @@ form {
   color:rgb(232, 232, 232);
 }
 
+.main_liste_link {
+  margin-left: 125px; /* Same as the width of the sidenav +15px*/
+  /*margin-right: var(--marg);*/
+  /*font-size: 28px;*/ /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  color:rgb(176, 198, 247);
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 
 .main_image {
   margin-left: 110px; /* Same as the width of the sidenav */
