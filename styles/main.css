@@ -54,15 +54,15 @@ form {
   color:rgb(232, 232, 232);
 }
 
-.main_liste_link {
-  margin-left: 125px; /* Same as the width of the sidenav +15px*/
-  /*margin-right: var(--marg);*/
-  /*font-size: 28px;*/ /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.main_liste li a {
   color:rgb(176, 198, 247);
   font-style: italic;
   font-weight: bold;
   text-decoration: none;
+}
+
+.main_liste li a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
 }
 
 
