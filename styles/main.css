@@ -54,6 +54,11 @@ form {
   color:rgb(232, 232, 232);
 }
 
+.main_liste li {
+  font-family: inherit; /* Explicitly inherits from ul */
+  color: inherit;       /* Explicitly inherits text color */
+}
+
 .main_liste li a {
   color:rgb(176, 198, 247);
   font-style: italic;
