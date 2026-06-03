@@ -1,0 +1,10 @@
+.conteneur_image {
+  display: flex;
+  align-items: flex-start; /* Aligne le texte en haut de l'image */
+  gap: 20px; /* Espace entre l'image et le texte */
+}
+
+.image_image {
+  width: 600px; /* Taille contrôlée */
+  height: auto;
+}
