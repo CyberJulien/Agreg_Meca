@@ -1,4 +1,6 @@
 .conteneur_image {
+  margin-left: 110px;
+  padding: 0px 10px;
   display: flex;
   align-items: flex-start; /* Aligne le texte en haut de l'image */
   gap: 20px; /* Espace entre l'image et le texte */
